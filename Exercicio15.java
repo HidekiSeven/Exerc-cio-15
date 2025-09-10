@@ -1,3 +1,5 @@
+Package exercicio15
+
 import java.util.Scanner;
 
 public class Exercicio15 {
@@ -13,6 +15,7 @@ public class Exercicio15 {
 
         System.out.print("Digite o número de dias trabalhados no mês: ");
         int diasTrabalhados = scanner.nextInt();
+        
 
         double salarioTotal = diasTrabalhados * horasPorDia * valorPorHora;
 
